@@ -24,7 +24,7 @@ textarea = driver.find_element(By.CSS_SELECTOR, ".textarea")
 # Напишем текст ответа в найденное поле
 textarea.send_keys("get()")
 time.sleep(5)
-
+#test
 # Найдем кнопку, которая отправляет введенное решение
 submit_button = driver.find_element(By.CSS_SELECTOR, ".submit-submission")
 
