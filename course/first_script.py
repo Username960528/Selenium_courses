@@ -20,7 +20,7 @@ time.sleep(5)
 # Метод принимает в качестве аргументов способ поиска и значение, по которому мы будем искать
 # Ищем поле для ввода текста
 textarea = driver.find_element(By.CSS_SELECTOR, ".textarea")
-
+#pampam
 # Напишем текст ответа в найденное поле
 textarea.send_keys("get()")
 time.sleep(5)
